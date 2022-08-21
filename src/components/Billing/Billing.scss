@@ -1,0 +1,190 @@
+.cover {
+  display: flex;
+  margin-top: -367px;
+  margin-left: 427px;
+  position: absolute;
+  .billing-info {
+    position: relative;
+    color: #F2994A;
+    font-weight: 700;
+    font-size: 1.05rem;
+    margin-top: -63px;
+    margin-left: 160px;
+  }
+  .line-two {
+    border-top: 8px solid #ed7b17;
+    border-radius: 1px;
+    width: 33%;
+    margin-left: 152px;
+    position: absolute;
+    margin-top: -31px;
+    border-radius: 7px;
+  }
+  .billing-name {
+    display: flex;
+    position: relative;
+    margin-top: -100px;
+  }
+  .billing-name h3 {
+    font-size: 1rem;
+    margin-top: 120px;
+    margin-left: -241px;
+  }
+  .billing-asterisk {
+    margin-top: 120px;
+    color: #EB5757;
+    margin-left: 3px;
+  }
+  .billing-name-input {
+    width: 116%;
+    position: absolute;
+    margin-top: -3px;
+    margin-left: -241px;
+    height: 6vh;
+    padding-left: 20px;
+    color: #4F4F4F;
+    font-weight: 400;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #4E598C;
+  }
+  .card-type {
+    display: flex;
+    position: relative;
+    margin-top: 7px;
+  }
+  .card-type h3 {
+    font-size: 1rem;
+    margin-top: 120px;
+    margin-left: -241px;
+  }
+  .card-type-asterisk {
+    margin-top: 120px;
+    color: #EB5757;
+    margin-left: 3px;
+  }
+  .card-type-input {
+    width: 116%;
+    position: absolute;
+    margin-top: -3px;
+    margin-left: -241px;
+    height: 6vh;
+    padding-left: 20px;
+    color: #4F4F4F;
+    font-weight: 400;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #4E598C; 
+  }
+  .billing-down-arrow {
+    margin-left: 196px;
+    margin-top: 10px;
+    position: absolute; 
+    cursor: pointer;
+  }
+  .card-details {
+    display: flex;
+    margin-top: -248px;
+    margin-left: 42px;
+    position: relative;
+  }
+  .card-details-asterisk {
+    margin-top: 480px;
+    color: #EB5757;
+    margin-left: -195px;
+    position: absolute;
+  }
+  .card-details h3 {
+    font-size: 1rem;
+    margin-top: 480px;
+    margin-left: -282px;
+  }
+  .card-details-input {
+    width: 46%;
+    position: absolute;
+    margin-top: -3px;
+    margin-left: -240px;
+    height: 6vh;
+    padding-left: 20px;
+    color: #4F4F4F;
+    font-weight: 400;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #4E598C;
+  }
+  .expiry-date {
+    display: flex;
+    margin-top: -248px;
+    margin-left: 42px;
+    position: relative;
+  }
+  .expiry-date-asterisk {
+    margin-top: 480px;
+    color: #EB5757;
+    margin-left: -3px;
+    position: absolute;
+  }
+  .expiry-date h3 {
+    font-size: 1rem;
+    margin-top: 480px;
+    margin-left: -87px;
+
+  }
+  .expiry-date-input {
+    width: 16%;
+    position: absolute;
+    margin-top: -3px;
+    margin-left: -47px;
+    height: 6vh;
+    padding-left: 20px;
+    color: #4F4F4F;
+    font-weight: 400;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #4E598C;
+  }
+  .cvv {
+    display: flex;
+  }
+  .cvv h3 {
+    font-size: 1rem;
+    margin-top: 480px;
+    margin-left: 27px;
+  }
+  .cvv-input {
+    width: 45%;
+    position: absolute;
+    margin-top: -3px;
+    margin-left: 27px;
+    height: 6vh;
+    padding-left: 20px;
+    color: #4F4F4F;
+    font-weight: 400;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #4E598C;
+  }
+  .bottom {
+    position: absolute;
+    margin-top: 610px;
+    display: flex;
+    padding-bottom: 90px;
+    .button {
+      background: linear-gradient(180deg, #F2C94C 0%, #F2994A 100%);
+      border-radius: 10px;
+      padding: 12px 68px 12px 68px;
+      color: white;
+      cursor: pointer;
+      font-weight: 700;
+      border: none;
+      outline: none;
+    }
+    .cancel {
+      margin-top: 11px;
+      color: #4E598C;
+      font-weight: 700;
+      margin-left: 50px;
+      cursor: pointer;
+    }
+  }
+}

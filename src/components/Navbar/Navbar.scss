@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin-left: -38px;
+  margin-top: 20px;
+  gap: 4rem;
+  font-size: 1.05rem;
+  color: #BDBDBD;
+  .personal  {
+    text-decoration: none;
+    color: #BDBDBD;
+    font-weight: 700;
+  }
+  .billing-info  {
+    text-decoration: none;
+    color: #BDBDBD;
+    font-weight: 700;
+  }
+  .confirm-payment  {
+    text-decoration: none;
+    color: #BDBDBD;
+    font-weight: 700;
+  }
+  .line {
+    width: 36%;
+    border-bottom: 1px solid black;
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 53px;
+  }
+}

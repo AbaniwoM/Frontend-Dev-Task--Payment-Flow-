@@ -1,0 +1,169 @@
+.cover {
+  display: flex;
+  margin-top: -367px;
+  margin-left: 427px;
+  position: absolute;
+  .personal-info {
+    position: absolute;
+    color: #F2994A;
+    font-weight: 700;
+    font-size: 1.05rem;
+    margin-top: -63px;
+    margin-left: -1px;
+  }
+  .line-one {
+    border-top: 8px solid #ed7b17;
+    border-radius: 1px;
+    width: 33%;
+    margin-left: -1px;
+    position: absolute;
+    margin-top: -31px;
+    border-radius: 7px;
+  }
+  .name-field h3 {
+    font-size: 1rem;
+  }
+  .name-input {
+    width: 242%;
+    margin-top: -5px;
+    position: relative;
+    height: 6vh;
+    padding-left: 20px;
+    color: #4F4F4F;
+    font-weight: 400;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #4E598C;
+  }
+  .email {
+    display: flex;
+  }
+  .email h3 {
+    font-size: 1rem;
+    margin-top: 120px;
+    margin-left: -194px;
+  }
+  .email-field h5 {
+    margin-left: -195px;
+    margin-top: -7px;
+    color: #817E9E;
+  }
+  .asterisk {
+    margin-top: 120px;
+    color: #EB5757;
+    margin-left: 3px;
+  }
+  .email-input {
+    width: 522%;
+    margin-top: -3px;
+    margin-left: -194px;
+    height: 6vh;
+    padding-left: 20px;
+    color: #4F4F4F;
+    font-weight: 400;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #4E598C;
+  }
+  .address-one h3 {
+    font-size: 1rem;
+    margin-top: 260px;
+    margin-left: -283px;
+  }
+  .address-one-input {
+    width: 135%;
+    position: absolute;
+    margin-top: -3px;
+    margin-left: -283px;
+    height: 6vh;
+    padding-left: 20px;
+    color: #4F4F4F;
+    font-weight: 400;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #4E598C;
+  }
+  .address-two h3 {
+    font-size: 1rem;
+    margin-top: 370px;
+    margin-left: -283px;
+  }
+  .address-two-input {
+    width: 135%;
+    position: absolute;
+    margin-top: -3px;
+    margin-left: -283px;
+    height: 6vh;
+    padding-left: 20px;
+    color: #4F4F4F;
+    font-weight: 400;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #4E598C;
+  }
+  .local-government h3 {
+    font-size: 1rem;
+    margin-top: 480px;
+    margin-left: -283px;
+  }
+  .local-government-input {
+    width: 76%;
+    position: absolute;
+    margin-top: -3px;
+    margin-left: -283px;
+    height: 6vh;
+    padding-left: 20px;
+    color: #4F4F4F;
+    font-weight: 400;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #4E598C;
+  }
+  .state h3 {
+    font-size: 1rem;
+    margin-top: 480px;
+    margin-left: 27px;
+  }
+  .state-input {
+    width: 45%;
+    position: absolute;
+    margin-top: -3px;
+    margin-left: 27px;
+    height: 6vh;
+    padding-left: 20px;
+    color: #4F4F4F;
+    font-weight: 400;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #4E598C;
+  }
+  .down-arrow {
+    margin-left: 168px;
+    margin-top: 10px;
+    position: absolute; 
+    cursor: pointer; 
+  }
+  .bottom {
+    position: absolute;
+    margin-top: 610px;
+    display: flex;
+    padding-bottom: 90px;
+    .button {
+      background: linear-gradient(180deg, #F2C94C 0%, #F2994A 100%);
+      border-radius: 10px;
+      padding: 12px 68px 12px 68px;
+      color: white;
+      cursor: pointer;
+      font-weight: 700;
+      border: none;
+      outline: none;
+    }
+    .cancel {
+      margin-top: 11px;
+      color: #4E598C;
+      font-weight: 700;
+      margin-left: 50px;
+      cursor: pointer;
+    }
+  }
+}

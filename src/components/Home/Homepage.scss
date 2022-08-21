@@ -1,0 +1,36 @@
+.wrapper {
+  background: linear-gradient(180deg, rgba(242, 201, 76, 0.2) 0%, rgba(242, 153, 74, 0.2) 100%);
+  position: relative;
+  overflow: hidden;
+  margin-top: -10px;
+  margin-left: -10px;
+  width: 101%;
+  height: 600px;
+  .white {
+    background-color: white;
+    margin-top: 480px;
+    margin-left: 10px;
+    position: absolute;
+    height: 60vh;
+    width: 105%;
+    transform:rotate(170deg);
+  }
+  .white-two {
+    background-color: white;
+    margin-top: 680px;
+    position: absolute;
+    height: 50vh;
+    width: 105%;
+  }
+  .header {
+    margin-top: 100px;
+    margin-left: -160px;
+    text-align: center;
+    color: #4E598C;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+  }
+}
