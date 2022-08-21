@@ -1,10 +1,12 @@
 import React from 'react';
 import "./ConfirmPayment.scss";
 
+
 const ConfirmPayment = () => {
   return (
-    <div>ConfirmPayment</div>
-  )
+    <div className="cover">
+    </div>
+  );
 }
 
 export default ConfirmPayment

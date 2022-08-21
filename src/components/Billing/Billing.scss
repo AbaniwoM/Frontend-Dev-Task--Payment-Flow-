@@ -14,8 +14,8 @@
   .line-two {
     border-top: 8px solid #ed7b17;
     border-radius: 1px;
-    width: 33%;
-    margin-left: 152px;
+    width: 26%;
+    margin-left: 142px;
     position: absolute;
     margin-top: -31px;
     border-radius: 7px;
@@ -36,7 +36,7 @@
     margin-left: 3px;
   }
   .billing-name-input {
-    width: 116%;
+    width: 98.5%;
     position: absolute;
     margin-top: -3px;
     margin-left: -241px;
@@ -64,7 +64,7 @@
     margin-left: 3px;
   }
   .card-type-input {
-    width: 116%;
+    width: 98.5%;
     position: absolute;
     margin-top: -3px;
     margin-left: -241px;
@@ -100,12 +100,12 @@
     margin-left: -282px;
   }
   .card-details-input {
-    width: 46%;
+    width: 44%;
     position: absolute;
     margin-top: -3px;
     margin-left: -240px;
     height: 6vh;
-    padding-left: 20px;
+    padding-left: 42px;
     color: #4F4F4F;
     font-weight: 400;
     border-radius: 7px;
@@ -121,22 +121,21 @@
   .expiry-date-asterisk {
     margin-top: 480px;
     color: #EB5757;
-    margin-left: -3px;
+    margin-left: 51px;
     position: absolute;
   }
   .expiry-date h3 {
     font-size: 1rem;
     margin-top: 480px;
-    margin-left: -87px;
-
+    margin-left: -32px;
   }
   .expiry-date-input {
     width: 16%;
     position: absolute;
     margin-top: -3px;
-    margin-left: -47px;
+    margin-left: 2px;
     height: 6vh;
-    padding-left: 20px;
+    padding-left: 28px;
     color: #4F4F4F;
     font-weight: 400;
     border-radius: 7px;
@@ -145,31 +144,40 @@
   }
   .cvv {
     display: flex;
+    margin-top: -248px;
+    margin-left: 52px;
+    position: relative;
+  }
+  .cvv-asterisk {
+    margin-top: 480px;
+    color: #EB5757;
+    margin-left: 48px;
+    position: absolute;
   }
   .cvv h3 {
     font-size: 1rem;
     margin-top: 480px;
-    margin-left: 27px;
+    margin-left: 10px;
   }
   .cvv-input {
-    width: 45%;
+    width: 9%;
     position: absolute;
     margin-top: -3px;
-    margin-left: 27px;
+    margin-left: 50px;
     height: 6vh;
-    padding-left: 20px;
+    padding-left: 19px;
     color: #4F4F4F;
     font-weight: 400;
     border-radius: 7px;
     outline: none;
     border: 1px solid #4E598C;
   }
-  .bottom {
+  .billing-bottom {
     position: absolute;
-    margin-top: 610px;
+    margin-top: 350px;
     display: flex;
     padding-bottom: 90px;
-    .button {
+    .billing-button {
       background: linear-gradient(180deg, #F2C94C 0%, #F2994A 100%);
       border-radius: 10px;
       padding: 12px 68px 12px 68px;
@@ -179,12 +187,15 @@
       border: none;
       outline: none;
     }
-    .cancel {
+    .billing-cancel {
       margin-top: 11px;
       color: #4E598C;
       font-weight: 700;
       margin-left: 50px;
       cursor: pointer;
+    }
+    .cancel-link {
+      text-decoration: none;
     }
   }
 }

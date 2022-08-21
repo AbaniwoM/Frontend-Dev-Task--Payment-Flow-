@@ -13,6 +13,8 @@ export default function Navbar() {
       <CustomLink to="/confirm-payment" className="confirm-payment">
         Confirm Payment
       </CustomLink>
+      <CustomLink to="/purchase-details" className="purchase-details">
+      </CustomLink>
       <div className="line"></div>
     </div>
   );

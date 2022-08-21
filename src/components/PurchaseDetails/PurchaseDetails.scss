@@ -1,0 +1,46 @@
+.cover {
+  .purchase-info {
+    position: relative;
+    color: #F2994A;
+    font-weight: 700;
+    font-size: 1.05rem;
+    margin-top: -63px;
+    margin-left: 160px;
+  }
+  .purchase-line-two {
+    border-top: 8px solid #ed7b17;
+    border-radius: 1px;
+    width: 46%;
+    margin-left: 146px;
+    position: absolute;
+    margin-top: -31px;
+    border-radius: 7px;
+  }
+  .purchase-bottom {
+    position: absolute;
+    margin-top: 350px;
+    display: flex;
+    padding-bottom: 90px;
+    .purchase-button {
+      background: linear-gradient(180deg, #F2C94C 0%, #F2994A 100%);
+      border-radius: 10px;
+      padding: 12px 68px 12px 68px;
+      color: white;
+      cursor: pointer;
+      font-weight: 700;
+      border: none;
+      outline: none;
+    }
+    .purchase-cancel {
+      margin-top: 11px;
+      color: #4E598C;
+      font-weight: 700;
+      margin-left: 50px;
+      width: 105%;
+      cursor: pointer;
+    }
+    .cancel-link {
+      text-decoration: none;
+    }
+  }
+} 

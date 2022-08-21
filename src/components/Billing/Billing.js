@@ -69,11 +69,13 @@ const Billing = () => {
           className="cvv-input"
         />
       </div>
-      <div className="bottom">
-        <Link to="/billing">
-          <button className="button">Next</button>
+      <div className="billing-bottom">
+        <Link to="/purchase-details">
+          <button className="billing-button">Next</button>
         </Link>
-        <div className="cancel">Cancel Payment</div>
+        <Link to="/" className="cancel-link">
+          <div className="billing-cancel">Cancel Payment</div>
+        </Link>
       </div>
     </div>
   );
