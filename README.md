@@ -1,6 +1,6 @@
 ## Frontend Dev Task (Payment Flow)
 
-This project is hosted with netlify and can be viewed [here](https://github.com/facebook/create-react-app).
+This project is hosted with netlify and can be viewed [here](https://pay-flow-task.herokuapp.com/).
 
 The project is built with `SCSS` and `material-ui` styling technologies.
 
