@@ -1,0 +1,16 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: -360px;
+  margin-left: 435px;
+  .purchase {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .returnHome {
+    margin-top: 15px;
+    color: #F2994A;
+    font-weight: 550;
+  }
+}

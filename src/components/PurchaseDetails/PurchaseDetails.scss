@@ -16,6 +16,71 @@
     margin-top: -31px;
     border-radius: 7px;
   }
+  .card {
+    width: 200%;
+    height: 44vh;
+    margin-top: 20px;
+    border-radius: 16px;
+    position: absolute;
+    box-shadow: 0px 10px 15px rgba(33, 30, 67, 0.08);
+    .head {
+      display: flex;
+      justify-content: space-around;
+      background: #2F80ED;
+      height: 5vh;
+      color: white;
+      font-weight: 700;
+      padding-top: 15px;
+      border-radius: 16px 14px 0px 0px;
+      .name {
+        margin-right: 75px;
+        margin-left: -10px;
+      }
+    }
+    .body {
+      background-color: white;
+      height: 36.5vh;
+      border-radius: 0px 0px 16px 14px;
+      .row1 {
+        display: flex;
+        padding-top: 40px;
+        justify-content: space-around;
+        .data {
+        margin-left: 1px;
+        }
+      }
+      .row2 {
+        display: flex;
+        padding-top: 30px;
+        justify-content: space-around;
+        margin-left: 1px;
+        .ship {
+        margin-right: 144px;
+        }
+      }
+      .line {
+        border-bottom: 1px solid #817E9E;
+        width: 90%;
+        margin-left: 23px;
+        margin-top: 30px;
+        position: absolute;
+      }
+      .total {
+        display: flex;
+        border: 1px solid #817E9E;
+        border-radius: 5px;
+        margin-top: 58px;
+        width: 90%;
+        justify-content: space-around;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 22px;
+        .letter {
+        margin-right: 170px;
+        }
+      }
+    }
+  }
   .purchase-bottom {
     position: absolute;
     margin-top: 350px;
